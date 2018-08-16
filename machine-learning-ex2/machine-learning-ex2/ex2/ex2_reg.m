@@ -57,8 +57,10 @@ hold off;
 % term is handled
 X = mapFeature(X(:,1), X(:,2));
 
+%display(X);
+
 % Initialize fitting parameters
-initial_theta = zeros(size(X, 2), 1);
+initial_theta = zeros(size(X, 2), 1);   %28 1 
 
 % Set regularization parameter lambda to 1
 lambda = 1;
